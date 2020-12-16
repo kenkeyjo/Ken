@@ -1,0 +1,133 @@
+<!-- Kensyah Rizzo Maulana (31) -->
+h1{}
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family:  sans-serif;
+    background-color: #232323;
+  }
+  
+  #container {
+    font-family:  sans-serif;
+    font-weight: bold;
+    width: 1200px;
+    height: 600px;
+    margin: 20px auto;
+    position: relative;
+  }
+  
+  #calculator {
+    width: 320px;
+    height: 520px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 7px;
+  }
+  
+  #result {
+    height: 120px;
+  }
+  
+  #history {
+    text-align: right;
+    height: 20px;
+    margin: 5px 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919191;
+  
+  }
+  
+  #output {
+    text-align: right;
+    height: 60px;
+    margin: 5px 10px;
+    font-size: 30px;
+  
+  }
+  
+  #keyboard {
+    height: 400px;
+    padding-left: 15px;
+  }
+  
+  .operator,
+  .number {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-width: 0;
+    border-radius: 50%;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  #zero {
+    width: 125px;
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+  }
+  
+  #equal {
+    height: 125px;
+    width: 50px;
+    border: 0;
+    border-radius: 10px;
+  }
+  
+  .number {
+    background-color: aliceblue;
+  
+  
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  #clear,
+  #backspace,
+  #divide,
+  #zero {
+    background-color: aliceblue;
+  }
+  
+  .operator:focus,
+  .number:focus {
+    outline: 0;
+  }
+  
+  .operator:active,
+  .number:active {
+    font-size: 20px;
+  }
+  
+  #multiply {
+    background-color: #20b2aa;
+  }
+  
+  #add {
+    background-color: #ffa500;
+  }
+  
+  #subtract {
+    background-color: #f08080;
+  }
+  
+  #equal {
+    background-color: #9477af;
+  }
+  
+  #divide {
+    font-size: 20px;
+  }
+  
+  #divide:active {
+    font-size: 25px;
+  }
